@@ -1,5 +1,5 @@
 ---
-title: The TeX Frequently Asked Question List
+title: TeX 常见问题
 permalink: /
 redirect_from: /faq/
 ---
@@ -54,14 +54,14 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
 {%- endif -%}
 {%- endfor -%}
 
-<h2 id="question-categories">Question Categories</h2>
+<h2 id="question-categories">问题类别</h2>
 <ul class="categories">
 {%- for ct in cats %}
   <li><a href="#{{ ct }}"> {{ ct | capitalize }} </a></li>
 {%- endfor %}
 </ul>
 
-<h2 id="question-categories">Question Tags</h2>
+<h2 id="question-categories">问题标签</h2>
 <dl><dd><p>
 {%- for tag in tags %}
     {%- if forloop.first == false -%}
