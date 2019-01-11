@@ -1,52 +1,40 @@
 ---
-title: About
+title: 关于
 permalink: /about
 ---
 
-This is a set of Frequently Asked Questions (FAQ) for English-speaking users of
-TeX. The information is maintained by a [group of
-"curators"](https://github.com/texfaq), with contributions from a very wide
-range of people over many years.
+这是为 TeX 的英文用户服务的常见问题（FAQ）集合。这里的信息是由[一群「管理员」](https://github.com/texfaq)维护的，多年来也有许多热心人为项目贡献了力量。
 
-The questions answered here cover a wide range of topics, but typesetting
-issues are mostly covered from the viewpoint of a LaTeX user.
+这里回答的问题主题广泛，但主要还是围绕 LaTeX 用户会遇到的排版问题。
 
-It's easier to add information than it is to decide that information is no
-longer needed: questions are therefore not deleted but are "retired" (removed
-from the main index) over time.
+增补往往比（因其过时而）删刈容易，于是只会把问题退居二线（从主索引中移除），而非删除。
 
-## Referencing the FAQ
+## 引用这个 FAQ
 
-The preferred URL for the FAQ is  
+推荐使用这个链接  
 <https://texfaq.org>
 
-The previous canonical URL of  
+之前的标准链接  
 <https://www.tex.ac.uk>  
-also works at the present time but should not be used in new references.
+在当下仍然有效，若是新写的引用，就不应继续用它了。
 
-To reference a specific question the preferred form is  
+如想引用特定问题，推荐用  
 <https://texfaq.org/FAQ-LaTeX3>  
-with FAQ in upper case and the question ID as given on the relevant page.
+这样的形式，使用大写的 FAQ 和对应网页里提供的问题 ID。
 
-There are no redirects enabled on the hosting site, however if your client
-supports JavaScript and HTML redirects then other forms differing by case
-will also work such as  
+托管的网站未开启超链接的重定向。但如果你的客户端支持 JavaScript 和 HTML 重定向，那么在大小写方面不同的超链接仍然有效，例如  
 <https://texfaq.org/faq-latex3>  
-For compatibility with exiting references to the FAQ, the form  
+为了保持与 FAQ 既有引用的兼容，形如  
 <https://www.tex.ac.uk/cgi-bin/texfaq2html?label=LaTeX3>  
-may also be used, but this again relies on the client supporting
-JavaScript in the new hosting arrangement and is just intended to
-support existing references that link to the site.
+的旧式超链接可能仍然有效，但这仍旧依赖客户端对 JavaScript 在新托管管理（new hosting arrangement）方面的支持。 对旧式超链接的支持，也只是为了让已经存在的对 FAQ 的引用仍然可用。
 
+## 源码
 
-## Source Code
+源码托管在 [GitHub](https://github.com/texfaq/texfaq.github.io/)，阅读[如何贡献](CONTRIBUTING)和[开源协议](LICENSE)了解详情。对于意见和建议，还可给我们[发邮件](texfaq@texfaq.org)。
 
-The source code is on [GitHub](https://github.com/texfaq/texfaq.github.io/),
-please see [CONTRIBUTING](CONTRIBUTING) and [LICENSE](LICENSE) for details. You can also [email us](texfaq@texfaq.org) us with suggestions.
+最近的变化，列在 [Change Log](CHANGELOG) 里了。
 
-Recent Changes are listed in the [Change Log](CHANGELOG).
-
-## Impressum
+## 网站声明（Impressum）
 
 > Joseph Wright<br />
 > 2, Dowthorpe End<br />
